@@ -33,13 +33,13 @@ gem 'render_csv'
 gem 'rest-client'
 gem 'sass-rails', '~> 4.0.0'
 gem 'sawyer', '~> 0.8.0'
-gem 'sdoc', group: :doc, require: false
+gem 'sdoc', '>= 1.0.0', group: :doc, require: false
 gem 'sidekiq'
 gem 'therubyracer', '~> 0.12.2', platforms: :ruby
 gem 'turbolinks', '~> 2.5.0'
 gem 'twitter-bootstrap-rails',    github: 'seyhunak/twitter-bootstrap-rails', branch: 'bootstrap3'
 gem 'twitter_bootstrap_form_for', github: 'stouset/twitter_bootstrap_form_for'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.4.0'
 
 group :development do
   gem 'capistrano',         '~> 3.4.0'
@@ -64,7 +64,7 @@ group :test do
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
   gem 'shoulda-matchers', '~> 3.1'
-  gem 'simplecov'
+  gem 'simplecov', '>= 0.15.1'
   gem 'webmock'
   gem 'vcr'
 end
