@@ -60,7 +60,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 2.1.0', require: false
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
   gem 'shoulda-matchers', '~> 3.1'
