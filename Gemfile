@@ -33,7 +33,7 @@ gem 'render_csv'
 gem 'rest-client'
 gem 'sass-rails', '~> 4.0.0'
 gem 'sawyer', '~> 0.8.0'
-gem 'sdoc', group: :doc, require: false
+gem 'sdoc', '>= 1.0.0', group: :doc, require: false
 gem 'sidekiq'
 gem 'therubyracer', '~> 0.12.2', platforms: :ruby
 gem 'turbolinks', '~> 2.5.0'
