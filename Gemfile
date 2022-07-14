@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.4.2'
 
-gem 'rails', '4.2.10'
+gem 'rails', '5.2.8.1'
 
 gem 'acts_as_paranoid', github: 'ActsAsParanoid/acts_as_paranoid'
 gem 'airbrake', '~> 3.1.15'
@@ -60,7 +60,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails', '>= 1.4.3', require: false
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
   gem 'shoulda-matchers', '~> 3.1'
