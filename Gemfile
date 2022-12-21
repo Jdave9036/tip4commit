@@ -31,7 +31,7 @@ gem 'omniauth-github', github: 'alexandrz/omniauth-github', branch: 'provide_ema
 gem 'rails-i18n', '~> 4.0.0'
 gem 'render_csv'
 gem 'rest-client'
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.0'
 gem 'sawyer', '~> 0.8.0'
 gem 'sdoc', group: :doc, require: false
 gem 'sidekiq'
